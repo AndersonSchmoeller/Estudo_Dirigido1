@@ -3,8 +3,10 @@
 
     print "Tamanho em metros quadrados: ";
     $area_to_paint = (float) fgets (STDIN);
+    $area_add = $area_to_paint * 0.10;
 
     $liters = $area_to_paint / 6;
+    $liters_add = $area_add / 6;
     //CAN
     $can_price = 80;
     $can_efficiency = 108; //18x6
